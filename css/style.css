@@ -1,5 +1,60 @@
-html, 
+html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2em 2em;
+    font-size: 1rem;
+    border-bottom: solid 2px black
+}
+
+.side1,
+.side2 {
+    display: flex;
+    align-items: center;
+}
+
+.side1 {
+    gap: 0.4em;
+}
+
+.side2 {
+    gap: 1em;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.nav img {
+    width: 2.1875em;
+    height: 2.1875em;
+}
+
+.section1 {
+    padding: 3em;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fanime-background&psig=AOvVaw0ySxUGm8sTaDEfohyEhFAr&ust=1681238926642000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID5vZr9n_4CFQAAAAAdAAAAABAE');
+    background: gray;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
 }
